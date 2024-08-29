@@ -7,56 +7,72 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #003152; /* Prussian Blue Background */
-            color: #DFCAA0; /* Crème Text Color */
+            background-color: #DFCAA0; /* Crème Background */
+            color: #003152; /* Prussian Blue Text */
             margin: 0;
             padding: 0;
+            line-height: 1.6;
         }
         header {
-            background-color: #00223A; /* Darker Prussian Blue */
+            background-color: #003152; /* Prussian Blue Header */
             padding: 30px;
             text-align: center;
             color: #DFCAA0; /* Crème for Header Text */
         }
         header h1 {
             margin: 0;
-            font-size: 2.8em;
-            color: #DFCAA0; /* Crème for the Main Heading */
+            font-size: 3em;
+            font-weight: bold;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.2em;
         }
         nav {
             text-align: center;
             margin: 20px 0;
         }
         nav a {
-            color: #DFCAA0; /* Crème for Links */
+            color: #003152;
             text-decoration: none;
             margin: 0 15px;
             font-size: 1.2em;
-            transition: color 0.3s;
+            padding: 8px 16px;
+            border-radius: 5px;
+            background-color: #003152; /* Gold for nav links */
+            transition: background-color 0.3s;
         }
         nav a:hover {
-            color: #FFD700; /* Gold on Hover */
+            background-color: #003152; /* Hover Effect */
+            color: #DFCAA0;
         }
         section {
             max-width: 800px;
             margin: 40px auto;
-            padding: 0 20px;
+            padding: 20px;
+            background-color: #FFF7E1; /* Lighter crème section background */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
         }
         h2 {
-            border-bottom: 2px solid #DFCAA0; /* Crème for Section Headers */
+            border-bottom: 2px solid #003152;
             padding-bottom: 10px;
             margin-bottom: 20px;
-            color: #DFCAA0; /* Crème Text */
+            color: #003152;
         }
         p, li {
-            line-height: 1.8; /* Improved Readability */
+            font-size: 1.1em;
+            margin-bottom: 15px;
         }
         footer {
-            background-color: #00223A; /* Darker Prussian Blue for Footer */
+            background-color: #003152; /* Prussian Blue Footer */
             text-align: center;
             padding: 20px;
             color: #DFCAA0; /* Crème Text in Footer */
             margin-top: 40px;
+        }
+        footer p {
+            margin: 5px 0;
         }
     </style>
 </head>
@@ -79,8 +95,10 @@
 
 <section id="iletisim">
     <h2>İletişim</h2>
-    <p>Bana ulaşabilirsiniz: <a href="mailto:ozan@ozankocer.tech" style="color: #FFD700;">ozan@ozankocer.tech</a></p>
-    <p>Instagram'dan takip edin: <a href="https://www.instagram.com/ozankocer1" target="_blank" style="color: #FFD700;">@ozankocer1</a></p>
+    <p>Bana ulaşabilirsiniz:</p>
+    <p>Email: <a href="mailto:ozan@ozankocer.tech" style="color: #003152;">ozan@ozankocer.tech</a></p>
+    <p>Telefon: <span style="color: #003152;">0545 316 7469</span></p>
+    <p>Instagram'dan takip edin: <a href="https://www.instagram.com/ozankocer1" target="_blank" style="color: #003152;">@ozankocer1</a></p>
 </section>
 
 <footer>
